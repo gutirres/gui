@@ -1,0 +1,53 @@
+@charset "UTF-8"
+
+header {
+    width: 100%;    
+}
+
+body {
+    /*https://miro.medium.com/max/1200/1*HTC1oMKYwC7a8vUBsiplhw.gif*/
+    background-image: url(back.gif);
+    width: 100%;
+    background-repeat: round;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+button {
+    font-family: monospace;
+    font-size: 1.25em;
+    background-color: blue;
+    color: #FFF;
+    padding: .5em;
+    border: .2em solid white;
+    width: 40ch;
+    margin: 1em auto;
+    display: block;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.5) 47px -50px 8px -39px inset;
+}
+
+#sobre {
+    background-color: white;
+    color: black;
+    border: .2em solid blue;
+}
+
+#contato {
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
